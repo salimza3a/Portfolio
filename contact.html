@@ -12,54 +12,54 @@
 </head>
 
 <body>
+  
     <header>
-        <h1> Your Name</h1>
+        <div class="header">
+       <span> <a href="#"> MetaHuman </a> </span>
         <nav>
             <ul>
-                <li><a href="./index.html">About</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a class="border" href="./index.html">About</a></li>
+                <li><a class="border" href="./portfolio.html">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+    </div>
     </header>
     <main>
+        <div class="main">
         <section>
             <h2>Contact</h2>
-            <div class="container">
-                <label for="text">Name</label>
-                <input type="text" id="text" placeholder="Salim Salimzada" />
-                <hr />
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="someone@example.com" />
-                <hr />
-                <label for="textarea">Message</label>
-                <textarea id="textarea" name="textarea">
-              I was in here many many years ago ...
-          </textarea>
-            </div>
-
-
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Meta Human"/>
+        <hr/>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="metahuman@gmail.com"/>
+        <hr/>
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea>   
+        <button type="submit">Submit</button> 
+           
 
         </section>
         <aside>
-            <h2> Contact Info</h2>
-            <div class="aside-href">
-                <a href="#github">Github</a>
-                <a href="#linkedin">Linkedin</a>
-                <a href="#stackoverflow">Stackoverflow</a>
+            <h2> Connect with Me</h2>
+            <div class="contact">
+                <a href="#github"><img src="./assets/images/github.png" alt="github"/></a>
+                <a href="#linkedin"><img src="./assets/images/linkedin.png" alt="linkedin"/></a>
+                <a href="#stackoverflow"><img src="./assets/images/stackoverflow.png" alt="stackoverflow"/></a>
 
             </div>
         </aside>
-
+    </div>
     </main>
 
     <footer>
-        <div class="line">
-            something for line
-        </div>
+      
         <span>Copyright &#64;
             2022 by Salim </span>
+            
     </footer>
+
 </body>
 
 </html>
